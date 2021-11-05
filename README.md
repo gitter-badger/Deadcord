@@ -44,7 +44,7 @@ Many people may question why we built Deadcord, let alone made it open-source. D
 * Deadcord averages about 20-30 pings a second with only 12 tokens.
 * Bots can bypass simple verification.
 * Different spam modes: @everyone, @random, blank, and lag. 
-* Bots join and leave servers very fast. 
+* Bots join and leave servers with a short random delay. 
 * Ping tokens to check if they are alive.
 * Speak through a token in all channels.
 * Change all bots nickname and status at once.
@@ -52,14 +52,11 @@ Many people may question why we built Deadcord, let alone made it open-source. D
 * Injects directly into Discord, and uses custom UI elements.
 * One click and disguise bots. (Change profile picture and server nickname).
 * Uses Tor to hide bots.
-* Different Boot modes.
-* **[ FUTURE UPDATE ]** Automatic server scraping and raiding.
-* **[ FUTURE UPDATE ]** Change all the bots profile pictures.
-* **[ FUTURE UPDATE ]** Account Generator without hCaptcha API.
+* Change all the bots profile pictures.
 
 ## 🏁 Setup for Development
 
-I will not be providng in-depth setup instructions. Part of this is to protect my work, as well as the statement declared in the *dsclaimer* section. If you wish to use our tool, download a release from our `releases` section.
+I will not be providing in-depth setup instructions. Part of this is to protect my work, as well as the statement declared in the *dsclaimer* section. If you wish to use our tool, download a release from our `releases` section.
 
 ## 🧰 Basic Usage
 
@@ -67,7 +64,7 @@ Download the latest release from our `releases` section. Download the file to a 
 
 1. Open Deadcord by double-clicking on the executable file. A terminal window should popup.
 
-2. Create a file named `tokens.txt` with your tokens, located either in your Desktop, Downloads, Documents or inside the Deadcord folder.
+2. Create a file named `tokens.txt` with your tokens, located in the same directory as Deadcord.
    
    **Your token file should follow this format:**
     * No quotation marks.
