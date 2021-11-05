@@ -1,7 +1,7 @@
 import os
 from src.core.Tokens import Tokens
 
-# Fetch tokens.
+# Initialize token class.
 tokens = Tokens()
 
 # Needed computer paths.

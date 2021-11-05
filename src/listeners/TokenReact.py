@@ -1,9 +1,7 @@
-import threading
 from src.core.Util import *
-from src.core.Server import *
+from src.core.Controllers import *
 from flask_restful import request
 from flask_restful import Resource
-from src.core.Container import tokens
 
 
 class TokenReact(Resource):
@@ -17,16 +15,7 @@ class TokenReact(Resource):
             message_id = params["message_id"]
             emoji = params["emoji"].replace("'", " ")
 
-            react_threads = []
-
-            console_log(f'Bots are reacting to message: {message_id}.')
-
-            for token in tokens.return_tokens():
-                react_thread = threading.Thread(target=react, args=[channel_id, message_id, emoji, token])
-                react_thread.daemon = True
-                react_threads.append(react_thread)
-
-            execute_threads(react_threads)
+            return all_bots_react(channel_id, message_id, emoji)
 
         else:
             return response(500, "No parameters provided.", 2)

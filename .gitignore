@@ -1,5 +1,6 @@
 config.json
 ffmpeg.exe
+tokens.txt
 **/__pycache__
 output/
 .idea/

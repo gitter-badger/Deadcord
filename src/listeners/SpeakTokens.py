@@ -1,6 +1,5 @@
-import threading
 from src.core.Util import *
-from src.core.Server import *
+from src.core.Controllers import *
 from flask_restful import Resource
 
 
@@ -11,19 +10,7 @@ class SpeakTokens(Resource):
 
         if "message_content" in params:
 
-            speak_threads = []
-            bot_tokens = tokens.return_tokens()
-            channels = scrape_channels(server_id)
-            message = clean_input(params["message_content"])[0]
-
-            for channel in channels:
-                speak_thread = threading.Thread(target=bot_message, args=[random.choice(bot_tokens), channel, message])
-                speak_thread.daemon = True
-                speak_threads.append(speak_thread)
-
-            execute_threads(speak_threads, 0.06)
-
-            return response(200, 'Token speak complete.')
+            return all_bots_speak(server_id, params["message_content"])
 
         else:
             return response(500, "No parameters provided.", 2)

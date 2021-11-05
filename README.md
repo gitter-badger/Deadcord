@@ -1,3 +1,13 @@
+
+### ⚠️ Development is slowing.
+
+Due to recent events and Discord security patches, obtaining extra tokens to use in Deadcord may be very hard to come by.
+We can no longer test Deadcord efficiently. Minimial updates will still occur until we can find a bypass.
+
+**This is not the end in our protest against Discords recent actions, a preview of our new project will drop shortly**
+
+---
+
 <div align="center">
 
 # 💀 Deadcord
@@ -12,15 +22,12 @@
 
 ---
 
-## 🎉 Early Beta Released
-We have released an early version of Deadcord, please keep in mind that some things may not work correctly or may break unexpectedly. We will try to fix any problems as soon as we can.
-
 ## 🚨 Disclaimer
 I do not endorse nor condone raids. Any actions carried out by our tool are at your own risk. We are responsible for creating our tool, but not for how it is used.
 To protect our work, and to prevent it from being re-distributed, we have not provided detailed development setup instructions.
 
 ## ❓ Why was Deadcord made?
-Many people may question why we built Deadcord, let alone make it open-source for many people to access. Deadcord was built to protest against several of Discords recent actions and decisions, among other things. We built Deadcord to protest against:
+Many people may question why we built Deadcord, let alone made it open-source. Deadcord was built to protest against several of Discords recent actions and decisions, among other things. We built Deadcord to protest against:
 
 * The forced shutdown of `discord.py`.
 * Switching every bot over to slash commands. (Slash caommands can be useful sometimes)
@@ -28,6 +35,9 @@ Many people may question why we built Deadcord, let alone make it open-source fo
 * Forcing small and big music bots out of busniess. 
 * Not accepting feedback from the community.
 * Locks a lot of new features behind paywalls or restricts them.
+* Not focusing on the user experience.
+* Against BetterDiscord.
+* Hides behind their TOS to avoid lengthy user questions.
 
 ## 🚀 Lets see the features
 * Spam speed increases with each token you add.
@@ -41,9 +51,8 @@ Many people may question why we built Deadcord, let alone make it open-source fo
 * Spoofs Cloudflare cookies, bots act like real users.
 * Injects directly into Discord, and uses custom UI elements.
 * One click and disguise bots. (Change profile picture and server nickname).
-* **[ FUTURE UPDATE ]** Lag voice channels.
-* **[ FUTURE UPDATE ]** Auto-scraping proxies.
-* **[ FUTURE UPDATE ]** Different Boot modes.
+* Uses Tor to hide bots.
+* Different Boot modes.
 * **[ FUTURE UPDATE ]** Automatic server scraping and raiding.
 * **[ FUTURE UPDATE ]** Change all the bots profile pictures.
 * **[ FUTURE UPDATE ]** Account Generator without hCaptcha API.
@@ -52,7 +61,7 @@ Many people may question why we built Deadcord, let alone make it open-source fo
 
 I will not be providng in-depth setup instructions. Part of this is to protect my work, as well as the statement declared in the *dsclaimer* section. If you wish to use our tool, download a release from our `releases` section.
 
-## 🧰 Usage
+## 🧰 Basic Usage
 
 Download the latest release from our `releases` section. Download the file to a location of your choosing.
 
@@ -64,11 +73,29 @@ Download the latest release from our `releases` section. Download the file to a 
     * No quotation marks.
     * Each token is on its own line.
     
-3. If you are using Deadcord for the first time, it will inject itself into the Discord core. This may take a few seconds.
+3. Install our BetterDiscord plugin provided in our [Discord Server](https://discord.gg/J4jY6Zp7A3)
 
 4. Make sure Deadcord is running in the background.
 
 4. If the steps above finish successfully, you are good to go!
+
+## 🧅 Usage with Tor
+Instead of using proxies, which are sometimes unreliable or dead, we decided to integrate Tor into Deadcord. Below you will find instructions on how to setup Deadcord to use Tor.
+1. Download the Tor Browser [here](https://www.torproject.org/download/).
+2. Once the Tor browser is installed, open the browser and let it run in the background.
+3. Restart Deadcord.
+4. When Deadcord has started, you should see a warning message that Tor has been activated.
+5. Make sure Tor is running in the background while you use Deadcord.
+
+## ❓ FAQ's
+### Is this a Discord bot?
+No, Deadcord is not a Discord **Bot**, it is a program to automate user accounts with their corresponding token.
+
+### Can my tokens get phone-locked?
+We have successfully tested Deadcord against several scenarios. You are able to spam constantly for 15 hours before your tokens are locked. if you use our tool wisely, they should never get phone-locked.
+
+### How can I protect my server?
+If you want a quick way to protect your server, I would recommend using a server captcha bot. They are easy to setup, but they will not prevent Deadcord bots from bypassing them.
 
 ## 🔥 Roadmap
 

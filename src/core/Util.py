@@ -57,7 +57,7 @@ def change_config(key, value):
 
 
 def console_log(text, mode=0):
-    timestamp = time.strftime('%H:%M:%S')
+    timestamp = get_timestamp()
 
     if mode == 0:
         print(Fore.LIGHTBLACK_EX + f'[*] [{timestamp}] ' + text + Fore.RESET)
@@ -73,9 +73,13 @@ def console_log(text, mode=0):
         return False
 
 
-def response(code=200, message="Success", data=[]):
+def response(code, message, data=None):
+    if data is None:
+        data = []
+
     if code == 200:
         console_log(message, 2)
+
     elif code == 500:
         console_log(message, 3)
 
@@ -108,3 +112,8 @@ def execute_threads(threads=[], delay=0):
 
     for thread in threads:
         thread.join()
+
+
+def get_timestamp():
+    return time.strftime('%H:%M:%S')
+
