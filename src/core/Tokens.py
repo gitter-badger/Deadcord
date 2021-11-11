@@ -1,3 +1,4 @@
+import sys
 import json
 from time import sleep
 from src.core.Util import *
@@ -27,7 +28,7 @@ class Tokens:
             else:
                 console_log('No tokens found. Deadcord will now shutdown.', 3)
                 sleep(4)
-                exit()
+                sys.exit()
 
     def get_tokens(self, file):
         self.raw_tokens.clear()
