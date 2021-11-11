@@ -11,7 +11,7 @@ class StartSpam(Resource):
         params = json.loads(request.get_data().decode())
 
         if "message_content" and "mode" in params:
-
+            print(params["message_content"])
             return start_spam(server_id, params["message_content"], params["mode"])
 
         else:

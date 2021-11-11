@@ -14,7 +14,7 @@ routes = {
     'ChangeNick': '/change-nick/<int:server_id>/',
     'DisguiseTokens': '/disguise/<int:server_id>/',
     'SpeakTokens': '/speak/<int:server_id>/',
-    'TokenReact': '/react/'
+    'ReactTokens': '/react/'
 }
 
 for instance, path in routes.items():

@@ -1,6 +1,8 @@
 import os
 import json
 import time
+import requests
+import random
 from flask import jsonify
 from flask import request
 from colorama import Fore, Style, init
@@ -116,4 +118,3 @@ def execute_threads(threads=[], delay=0):
 
 def get_timestamp():
     return time.strftime('%H:%M:%S')
-

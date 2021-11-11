@@ -2,7 +2,6 @@ import json
 from time import sleep
 from src.core.Util import *
 from src.core.Cloudflare import *
-from base64 import b64encode, b64decode
 
 
 class Tokens:
@@ -15,7 +14,7 @@ class Tokens:
         sleep(1)
         full_path = os.path.join("./", "tokens.txt")
         if os.path.exists(full_path):
-            console_log(f'Token file found.', 2)
+            console_log(f'Token file found.\n', 2)
             self.get_tokens(full_path)
             found = True
         else:

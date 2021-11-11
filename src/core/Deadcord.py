@@ -1,4 +1,5 @@
 import sys
+import emoji
 import random
 from time import sleep
 from src.core.Util import *
@@ -43,13 +44,11 @@ def start_message_thread(token, messages, channels, mode, users=None):
     else:
         built_message = message
 
-    # channel = random.choice(channels)
     while get_temp_data('spam_flag') == 0:
         try:
             bot_send = bot_message(token, random.choice(channels), built_message)
 
             if "global" in bot_send:
-                # channel = random.choice(channels)
                 sleep(9)
 
         except Exception as e:
@@ -149,9 +148,10 @@ def can_ping_everyone(channel, token):
         return False
 
 
-def react(channel_id, message_id, emoji, token):
-    react_send = send(f'channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me', 'PUT', token)
-    return react_send.json()
+def react(channel_id, message_id, emoji_name, token):
+    react_emoji = emoji.emojize(f':{emoji_name}:', use_aliases=True)
+    react_send = send(f'channels/{channel_id}/messages/{message_id}/reactions/{react_emoji}/@me', 'PUT', token)
+    return react_send
 
 
 def random_name():

@@ -19,6 +19,8 @@ if get_config('use_tor'):
 else:
     session = requests.Session()
 
+cookie_string = get_cookie()
+
 
 def send(endpoint, method, token, data=None):
     if data is None:
@@ -50,9 +52,9 @@ def send(endpoint, method, token, data=None):
         "Accept": "*/*",
         "Accept-language": "en-GB",
         "Authorization": token_data["token"],
-        "Content-length": "2",
+        "Content-length": "90",
         "Content-type": "application/json",
-        "Cookie": get_cookie(),
+        "Cookie": cookie_string,
         "Origin": "https://discord.com",
         "Sec-fetch-dest": "empty",
         "Sec-fetch-mode": "cors",

@@ -1,13 +1,3 @@
-
-### ⚠️ Development is slowing.
-
-Due to recent events and Discord security patches, obtaining extra tokens to use in Deadcord may be very hard to come by.
-We can no longer test Deadcord efficiently. Minimial updates will still occur until we can find a bypass.
-
-**This is not the end in our protest against Discords recent actions, a preview of our new project will drop shortly**
-
----
-
 <div align="center">
 
 # 💀 Deadcord
@@ -38,6 +28,7 @@ Many people may question why we built Deadcord, let alone made it open-source. D
 * Not focusing on the user experience.
 * Against BetterDiscord.
 * Hides behind their TOS to avoid lengthy user questions.
+* **Moving towards NFT's against community advice and kickback.**
 
 ## 🚀 Lets see the features
 * Spam speed increases with each token you add.
