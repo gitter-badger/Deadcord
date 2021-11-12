@@ -6,7 +6,7 @@
 [![Discord](https://discordapp.com/api/guilds/899049148895072276/widget.png?style=shield)](https://discord.gg/J4jY6Zp7A3)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Galaxzy345/Deadcord/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/Galaxzy345/Deadcord?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Galaxzy345/Deadcord?style=social)
 
-<img src="https://cdn.discordapp.com/attachments/899082222257188905/900996499289309184/LOGO2.png" alt="Logo">
+<img src="https://media.discordapp.net/attachments/899058106342977598/908509264564338748/deadcord-screenshot.png" alt="Logo">
 
 </div>
 
