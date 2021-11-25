@@ -1,5 +1,5 @@
-## ⚠️ Changed to closed source.
-After a large amount of thought, for the best of Deadcord, our team has decided to make Deadcord closed source.
+## ⚠️ Temporarily closed source.
+After a large amount of thought, for the best of Deadcord, our team has decided to make Deadcord closed source for a temporary amount of time.
 We made this decision for two reasons:
 
 * There is evidence that Discord is patching key components of Deadcord.
@@ -12,8 +12,8 @@ Deadcord snippets and releases. **If you have any questions, join our Discord.**
 
 <div align="center">
 
-# 💀 Deadcord
-*The next upcoming Discord raid tool, the best for free.*
+# 💀 Deadcord v0.3
+*The best Discord raid tool, the best for free. Trusted, Powerful, Purposeful*
 
 [![Discord](https://discordapp.com/api/guilds/899049148895072276/widget.png?style=shield)](https://discord.gg/J4jY6Zp7A3)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Galaxzy345/Deadcord/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/Galaxzy345/Deadcord?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Galaxzy345/Deadcord?style=social)
@@ -32,29 +32,30 @@ To protect our work, and to prevent it from being re-distributed, we have not pr
 Many people may question why we built Deadcord, let alone made it open-source. Deadcord was built to protest against several of Discords recent actions and decisions, among other things. We built Deadcord to protest against:
 
 * The forced shutdown of `discord.py`.
-* Switching every bot over to slash commands. (Slash caommands can be useful sometimes)
+* Switching every bot over to slash commands.
 * Discord and YouTube partnership.
-* Forcing small and big music bots out of busniess. 
+* Forcing small and big music bots out of business. It was someone's hobby.
 * Not accepting feedback from the community.
 * Locks a lot of new features behind paywalls or restricts them.
 * Not focusing on the user experience.
 * Against BetterDiscord.
 * Hides behind their TOS to avoid lengthy user questions.
-* **Moving towards NFT's against community advice and kickback.**
+* Moving towards NFT's against community advice and kickback.
+* **Discord hypocrisy, introducing alt account system, when they want to prevent spam and raids.**
 
 ## 🚀 Lets see the features
 * Spam speed increases with each token you add.
 * Deadcord averages about 20-30 pings a second with only 12 tokens.
 * Bots can bypass simple verification.
-* Different spam modes: @everyone, @random, blank, and lag. 
+* Different spam modes: @everyone, mass user, blank, and lag. 
 * Bots join and leave servers with a short random delay. 
-* Ping tokens to check if they are alive.
+* Advanced token ping to check if they are alive.
 * Speak through a token in all channels.
 * Change all bots nickname and status at once.
-* Spoofs Cloudflare cookies, bots act like real users.
-* Injects directly into Discord, and uses custom UI elements.
+* Spoofs Discord client requests, bots act like real users.
+* Injects directly into Discord, and uses custom UI elements using BetterDiscord.
 * One click and disguise bots. (Change profile picture and server nickname).
-* Uses Tor to hide bots.
+* Uses Tor to hide bots. This feature is in beta.
 * Change all the bots profile pictures.
 
 ## 🏁 Setup for Development
@@ -92,7 +93,7 @@ Instead of using proxies, which are sometimes unreliable or dead, we decided to 
 No, Deadcord is not a Discord **Bot**, it is a program to automate user accounts with their corresponding token.
 
 ### Can my tokens get phone-locked?
-We have successfully tested Deadcord against several scenarios. You are able to spam constantly for 15 hours before your tokens are locked. if you use our tool wisely, they should never get phone-locked.
+We have successfully tested Deadcord against several scenarios. You are able to spam constantly for 5 hours before your tokens are locked. if you use our tool wisely, they should never get phone-locked.
 
 ### How can I protect my server?
 If you want a quick way to protect your server, I would recommend using a server captcha bot. They are easy to setup, but they will not prevent Deadcord bots from bypassing them.
