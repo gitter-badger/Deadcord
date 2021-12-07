@@ -6,7 +6,7 @@ We made this decision for two reasons:
 * Our goal is to make better change in Discord, not having our work re-distributed.
 
 Updates and bug-fixes will continue as normal, this repo will be used for open-sourced 
-Deadcord snippets and releases. **If you have any questions, join our Discord.**
+Deadcord snippets and releases. **If you have any questions, join our community Discord.**
 
 ---
 
