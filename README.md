@@ -15,7 +15,7 @@ Deadcord snippets and releases. **If you have any questions, join our community 
 # 💀 Deadcord v0.3
 *The best Discord raid tool, the best for free. Trusted, Powerful, Purposeful*
 
-[![Discord](https://discordapp.com/api/guilds/899049148895072276/widget.png?style=shield)](https://discord.gg/J4jY6Zp7A3)
+[![Discord](https://discordapp.com/api/guilds/917833325681463296/widget.png?style=shield)](https://discord.gg/VFZ6t6g5QG)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Galaxzy345/Deadcord/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/Galaxzy345/Deadcord?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Galaxzy345/Deadcord?style=social)
 
 <img src="https://media.discordapp.net/attachments/899058106342977598/908509264564338748/deadcord-screenshot.png" alt="Logo">
