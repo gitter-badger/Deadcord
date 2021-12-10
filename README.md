@@ -1,4 +1,8 @@
-## ⚠️ Temporarily closed source.
+## Use v0.4 with caution!
+Recently we have been getting a high number of bug reports, so we advise to not use v0.4 for the time being. We are working on v0.5 that will fix most of these problems. Join our Discord for more info.
+Currently, the "disguise bots" feature causes tokens to be phone locked.
+
+## ⚠️ https://discord.com/blog/how-discord-is-fighting-spam closed source.
 After a large amount of thought, for the best of Deadcord, our team has decided to make Deadcord closed source for a temporary amount of time.
 We made this decision for two reasons:
 
