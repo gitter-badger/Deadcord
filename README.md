@@ -1,6 +1,5 @@
-## Use v0.4 with caution!
-Recently we have been getting a high number of bug reports, so we advise to not use v0.4 for the time being. We are working on v0.5 that will fix most of these problems. Join our Discord for more info.
-Currently, the "disguise bots" feature causes tokens to be phone locked.
+## Currently under revamp.
+The Deadcord BD plugin is being rebuilt. You might experience weird UI glitches, things may also break or not work as expected. Join our Discord for more info.
 
 ---
 
