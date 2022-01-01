@@ -1,5 +1,5 @@
-## Currently under revamp.
-The Deadcord BD plugin is being rebuilt. You might experience weird UI glitches, things may also break or not work as expected. Join our Discord for more info.
+## Currently being rebuilt.
+The Deadcord engine is being rebuilt in Golang, this will bring faster speeds and faster updates. We are 25% done with the revamp. Thank you for your understanding.
 
 ---
 
@@ -8,7 +8,7 @@ The Deadcord BD plugin is being rebuilt. You might experience weird UI glitches,
 # 💀 Deadcord *Raid Tool*
 *The best Discord raid tool, the best for free. Trusted, Powerful, Purposeful*
 
-[![Discord](https://discordapp.com/api/guilds/917833325681463296/widget.png?style=shield)](https://discord.gg/VFZ6t6g5QG)
+[![Discord](https://discordapp.com/api/guilds/917833325681463296/widget.png?style=shield)](https://discord.gg/NbvMn8hE4Q)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Galaxzy345/Deadcord/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/Galaxzy345/Deadcord?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Galaxzy345/Deadcord?style=social)
 
 </div>
