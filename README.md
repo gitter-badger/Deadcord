@@ -1,5 +1,5 @@
 ## Currently being rebuilt.
-The Deadcord engine is being rebuilt in Golang, this will bring faster speeds and faster updates. We are 25% done with the revamp. Thank you for your understanding.
+The Deadcord engine is being rebuilt in Golang, this will bring faster speeds and quicker development time. We are 25% done with the revamp. Thank you for your understanding.
 
 ---
 
