@@ -8,7 +8,7 @@ The Deadcord engine is being rebuilt in Golang, this will bring faster speeds an
 # 💀 Deadcord *Raid Tool*
 *The best Discord raid tool, the best for free. Trusted, Powerful, Purposeful*
 
-[![Discord](https://discordapp.com/api/guilds/917833325681463296/widget.png?style=shield)](https://discord.gg/NbvMn8hE4Q)
+[![Discord](https://discordapp.com/api/guilds/917833325681463296/widget.png?style=shield)](https://discord.gg/NbvMn8hE4Q) [![Join the chat at https://gitter.im/DeadcordRaider/community](https://badges.gitter.im/DeadcordRaider/community.svg)](https://gitter.im/DeadcordRaider/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Galaxzy345/Deadcord/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/Galaxzy345/Deadcord?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Galaxzy345/Deadcord?style=social)
 
 </div>
